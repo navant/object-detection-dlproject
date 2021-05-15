@@ -8,7 +8,6 @@ The main scope of this project is perform Object detection use case and  cover e
 
 ## High level Components
 
-- HighProvide the Deep learning life cycle and Best Practices
 - Framework and Model Selection
 - Data Collection, Preparation & New Data labeling
 - Implementation
@@ -17,12 +16,6 @@ The main scope of this project is perform Object detection use case and  cover e
     - Web/Mobile App Development
 - Observations/Lesson Learnt
 - Future Work
-
-    Continous Integration and Model Train, Re train and Deployment pipeline
-
-    Monitoring, Drift Detection, Retraining
-
-    Mobile/Web App Development
 
 ## High level Architecture & Components Involved
 
