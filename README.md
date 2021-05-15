@@ -245,12 +245,21 @@ docker run -p 5000:5000 objectdetection_flask_yolo5:latest
 
 I started this project as Novice user to Deep learning and CNN and below are few learnings 
 
-- Under estimation of complexity of Object detector  selection for the  use case.  Most of the time went in selecting right framework and the right object detection model, their is also Cognitive services available from Public cloud vendors who can do object detection . to make things worse technology is evolving so rapidly and  their are too many opinions and options to choose from
-- We still don't have  data set that can cover all objects in home. COCO dataset which is most widely popular one also covers only 80 Objects, out of which the objects . This means significant new data labeling and data sets ,custom objects training.
+- Under estimation the complexity of Object detector selection for the  use case.  Most of the time went in selecting right framework and the right object detection model, their is also Cognitive services available from Public cloud vendors that can do object detection . To make things worse technology is evolving so rapidly and their are too many opinions and options to choose from. 
+
+- We still don't have  data set that can cover all objects to cover the home inventory use case. COCO dataset which is  widely popular one covers only 80 Objects, out of which the objects that are for home inventory use case is even less. This means significant new data labeling and data sets ,custom objects training required 
+
 - We still don't have measurement of items that are not detected in the images. Our performance/accuracy measurement is always based on what is manually labelled in a image  vs what is incorrectly labeled but I can't find how we measure the items that are missed
+
 - Significant training time and resources to train the custom objects.
-- Models can get bigger to deploy after Dockerise , Infrastructure Pipeline should consider this. Currently AWS Lambda can support docker  images unto 10Gb
-- Based on my proof of concept and study , We are not ready yet for object detection for generic use case like this to completely automate the generation of house objects inventory yet . Object detection cannot replace manual classification, So use case need to be updated to consider object detection to supplement the manual classification.  Example: As part of this use case to capture home inventory,  this model support in automatic population of the objects and user have option to edit /update this classification. When model accuracy improves and new data classes are getting added then number of manual classification reduces.
+
+- Models can get bigger to deploy after Dockerise the whole application, Infrastructure Pipeline should consider this. For example currently AWS Lambda can support docker  images unto 10Gb
+
+- Based on my proof of concept and study , We are not ready yet for object detection for generic use case like this to completely automate the generation of house objects inventory yet . Object detection cannot replace manual classification, So use case need to be updated to consider object detection to supplement the manual classification.  
+
+Example: As part of this use case to capture home inventory,  this model support in automatic population of the objects and user have option to edit /update this classification. When model accuracy improves and new data classes are getting added then number of manual classification reduces.
+
+- Under estimation of effort involved to make it end to end work.
 
 ## Next Steps  (way to go..)
 
