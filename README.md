@@ -6,17 +6,6 @@
 
 The main scope of this project is perform Object detection use case and  cover end to end deep learning life cycle. The theme that is covered is  called  **"Know the objects at home"🏠** which basically  app that can capture and identify different objects in your home from the uploaded image that can assist to create Home Inventory.  
 
-## High level Components
-
-- Framework and Model Selection
-- Data Collection, Preparation & New Data labeling
-- Implementation
-    - Model Training , Testing and Create Model for Deployment
-    - Infrastructure for Model Serving
-    - Web/Mobile App Development
-- Observations/Lesson Learnt
-- Future Work
-
 ## High level Architecture & Components Involved
 
 ![reference/fsdl_2021-Page-6.png](reference/fsdl_2021-Page-6.png)
