@@ -259,7 +259,7 @@ I started this project as Novice user to Deep learning and CNN and below are few
 
 Example: As part of this use case to capture home inventory,  this model support in automatic population of the objects and user have option to edit /update this classification. When model accuracy improves and new data classes are getting added then number of manual classification reduces.
 
-- Under estimation of effort involved to make it end to end work.
+- Under estimation of effort involved to make it work end to end.
 
 ## Next Steps  (way to go..)
 
